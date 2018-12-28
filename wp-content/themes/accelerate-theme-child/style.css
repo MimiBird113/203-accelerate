@@ -108,6 +108,72 @@ div.case-study-images img {
   display: none;
 }
 
+/*Contact Form Styles */
+.email-wrap {
+  float: right;
+}
+.textbox-container {
+  float: left;
+}
+.submit-container {
+  float: right;
+}
+
+input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+}
+
+#nf-field-2-container {
+  clear: none;
+}
+
+.contact-title {
+  font-size: 25px;
+}
+
+.page-id-47357 #primary {
+  width: 45%;
+}
+
+/* About Page */
+
+.page-id-47364 #primary {
+	background: url("img/taxi-photo-about.jpg") no-repeat center center / cover rgba(0, 0, 0, 0);
+}
+
+.about-page p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 550px;
+}
+
+.services-description {
+  padding-top: 10px;
+}
+
+.services-description p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.services-items {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* Media Queries */
 @media (min-width: 768px) {
