@@ -108,9 +108,9 @@
 
  	</div><!-- #primary -->
 
-  <nav id="navigation" class="container center">
+  <nav id="navigation" class="container center about-nav">
     <p class="left"><strong>Interested in working with us?</strong></p>
-		<a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a></div>
+		<a class="button nav-button" href="<?php echo site_url('/contact/') ?>">Contact Us</a>
 	</nav>
 
 

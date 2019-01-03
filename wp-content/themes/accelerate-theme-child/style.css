@@ -148,7 +148,7 @@ input[type="button"], input[type="submit"] {
 	color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
-	height: 200px;
+	height: 250px;
 	width: 550px;
 }
 
@@ -172,6 +172,111 @@ input[type="button"], input[type="submit"] {
   margin-left: auto;
   margin-right: auto;
 }
+
+.about-image-1, .about-image-3, .item-2, .item-4 {
+  float: left;
+}
+
+.about-image-2, .about-image-4, .item-1, .item-3 {
+  float: right;
+}
+
+ .about-image-1, .about-image-3{
+  margin-right: 100px;
+}
+
+.about-image-2, .about-image-4 {
+  margin-left: 100px;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+  padding-top: 50px;
+}
+
+.item-4 {
+  padding-bottom: 50px;
+}
+
+.about-nav {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.nav-button, .about-nav p {
+  display: inline-block;
+  margin: 40px auto;
+}
+
+.left {
+  padding-left: 150px;
+}
+
+
+/* 404 Styles */
+
+#not-found {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.nope-img {
+  float: left;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.oops h2 {
+  font-weight: bold;
+  color: #45ac9d;
+  font-size: 36px;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+.oops a {
+  color: #45ac9d;
+  font-weight: bold;
+}
+
+/* Tweet Styles */
+
+.widget_custom-twitter-feeds-widget {
+  padding-left: 10%;
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
+
+.tweets h4 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+    text-align: left;
+}
+.widget-title {
+    color: #a6a6a6;
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.ctf-author-name {
+  font-size: 1.5em;
+  margin-bottom: 21px;
+}
+
+/* MailChimp Widget */
+.widget_mc4wp_form_widget {
+  width: 50%;
+  float: right;
+  display: inline-block;
+  padding-left: 10%;
+}
+
 
 
 
